@@ -1,0 +1,1 @@
+gets.to_i.times { puts gets.downcase.scan(/[a-z]/).uniq.length == 26 }
